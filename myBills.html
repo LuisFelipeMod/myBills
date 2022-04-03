@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myBills</title>
+    <link rel="icon" href="images/fav-icon.svg">
+    <link rel="stylesheet" href="css/myBills.css">
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <!-- Usuário -->
+            <div class="textBox">
+                <label class="titleFields" for="login">Login</label>
+                <input list="login" name="login" class="fields" type="text" placeholder="Logar como...">
+                <div class="divSelectLogin">
+                    <select class="selectLogin" name="login" id="login">
+                        <option value=""></option>
+                        <option value="Luis Felipe" selected="Luis Felipe">Luis Felipe</option>
+                        <option value="Lucas" selected="Lucas">Lucas</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="textBox">
+                <label class="titleFields" for="password" id="password">Senha</label>
+                <input class="fields" type="password" placeholder="Digite sua senha aqui">
+                <div class="divPasswordOcult">
+                    <img class="passwordOcult" id="eye" src="images/eye.svg">
+                </div>
+            </div>
+
+            <div class="buttonBox">
+                <button onclick="entrar()" class="buttonLogin" type="submit">Logar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
