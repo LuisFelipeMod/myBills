@@ -1,4 +1,4 @@
-## Features myBills 1.0
+## Deve-se ser implementado
 
 -> Opção de logar como Lucas, ou como Luis
     - Cada um possuí um senha específica
