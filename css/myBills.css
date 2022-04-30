@@ -71,7 +71,7 @@ body {
 
 .selectLogin {
     cursor: pointer;
-    background-color: #939393;
+    background-color: transparent;
     border: none;
     color: #fff;
     width: 20px;
@@ -79,6 +79,11 @@ body {
     justify-content: end;
     margin-top: -32px;
     margin-right: 6px;
+}
+
+.optionsSelect{
+    color: #FFF;
+    background-color: rgb(71, 71, 71);
 }
 
 .buttonLogin {
