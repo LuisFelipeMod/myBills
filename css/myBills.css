@@ -101,12 +101,23 @@ body {
 
 
 .buttonLogin:hover {
+    transition: all 0.3s ease 0s;
     background: #437e43;
+    
 }
 
 .divPasswordOcult {
     display: flex;
-    justify-content: end;
+    align-items: start;
+    justify-content: start;
+    margin-top: -35px;
+    margin-left: 88%;
+    cursor: pointer;
+
+}
+.divPasswordOcult svg{
+    stroke: rgb(255, 255, 255);
+
 }
 
 .passwordOcult {
